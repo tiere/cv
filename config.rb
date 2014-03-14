@@ -1,3 +1,5 @@
+ignore 'bower_components/*'
+
 ###
 # Compass
 ###
@@ -20,7 +22,7 @@ compass_config do |config|
   # relative_assets = true
 
   # To disable debugging comments that display the original location of your selectors. Uncomment:
-  # line_comments = false
+  config.line_comments = false
 
 
   # If you prefer the indented syntax, you might want to regenerate this
@@ -91,10 +93,10 @@ activate :livereload
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
   # activate :asset_hash
