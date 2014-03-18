@@ -21,3 +21,6 @@
 
 # Rubymine files
 /.idea
+
+# Cache
+/.cache
