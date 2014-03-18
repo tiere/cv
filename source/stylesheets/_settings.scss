@@ -51,12 +51,13 @@
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
-// $secondary-color: #e7e7e7;
-// $alert-color: #f04124;
-// $success-color: #43AC6A;
-// $warning-color: #f08a24;
-// $info-color: #a0d3e8;
+$primary-color: #7A6A53;
+$primary-light: #948C75;
+$secondary-color: #99B2B7;
+$alert-color: #f04124;
+$success-color: #43AC6A;
+$warning-color: #f08a24;
+$info-color: #a0d3e8;
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -762,7 +763,7 @@
 // $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-// $panel-bg: scale-color(#fff, $lightness: -5%);
+$panel-bg: scale-color(#99B2B7, $lightness: -5%);
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
@@ -1123,7 +1124,7 @@
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: #333;
+$topbar-bg-color: #332C23;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
