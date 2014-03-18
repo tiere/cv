@@ -1,3 +1,4 @@
+# Ignore bower_components directory when building
 ignore 'bower_components/*'
 
 ###
