@@ -1,5 +1,13 @@
-# Ignore bower_components directory when building
+# Ignore bower_components and assets directories when building
 ignore 'bower_components/*'
+ignore 'assets/*'
+
+# Add assets to sprockets import path
+ready do
+  root_path = File.expand_path(File.dirname(__FILE__))
+  sprockets.append_path "#{root_path}/source/assets/javascripts/"
+  sprockets.append_path "#{root_path}/source/assets/stylesheets/"
+end
 
 ###
 # Compass
