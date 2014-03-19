@@ -1,17 +1,19 @@
 .magellan {
-  background: #99B2B7;
+  background: currentcolor;
+  box-shadow: 0px 4px 8px $primary-color;
+  margin-bottom: rem-calc(30);
 
-  .sub-nav {
-    a {
-      color: black;
-    }
+  // .sub-nav {
+  //   a {
+  //     color: wh;
+  //   }
 
-    a:hover {
-      color: white;
-    }
+  //   a:hover {
+  //     color: white;
+  //   }
 
-    .button {
-      margin:0;
-    }
-  }
+  //   .button {
+  //     margin:0;
+  //   }
+  // }
 }

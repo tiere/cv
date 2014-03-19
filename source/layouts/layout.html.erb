@@ -9,8 +9,8 @@
     <%= javascript_include_tag "modernizr" %>
   </head>
   <body class="<%= page_classes %>">
-    <%= partial 'layouts/nav' %>
     <%= partial 'layouts/header' %>
+    <%= partial 'layouts/nav' %>
     <%= yield %>
     <%= javascript_include_tag "all" %>
   </body>

@@ -1,11 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
 body {
   background: #D5DED9;
 }
 
 .label {
-  margin-top: rem-calc(8);
+  margin-top: rem-calc(10);
 }
 
 hr {
   border: 1px dashed black;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
 }
