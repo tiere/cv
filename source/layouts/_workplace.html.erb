@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="medium-3 small-12 columns">
+    <span class="label"><%= time %></span>
+  </div>
+
+  <div class="medium-9 small-12 columns">
+    <h4 class="subheader"><%= title %></h4>
+    <h5 class="subheader"><%= company %></h5>
+
+    <ul>
+    <% duties.each do |d| %>
+      <li><%= d %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
