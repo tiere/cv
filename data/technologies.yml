@@ -1,0 +1,35 @@
+- ruby:
+  name: Ruby (on Rails)
+  skill: 80
+
+- java:
+  name: Java
+  skill: 50
+
+- csharp:
+  name: C#
+  skill: 60
+
+- javascript:
+  name: Javascript
+  skill: 60
+
+- coffeescript:
+  name: CoffeeScript
+  skill: 60
+
+- php:
+  name: PHP
+  skill: 20
+
+- python:
+  name: Python
+  skill: 50
+
+- django:
+  name: Django
+  skill: 50
+
+- linux:
+  name: Linux
+  skill: 70
