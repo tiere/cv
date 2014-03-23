@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
+
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -8,15 +9,22 @@
   <%= stylesheet_link_tag "app" %>
   <%= javascript_include_tag "modernizr" %>
 </head>
+
 <body class="<%= page_classes %>">
-<%= partial 'layouts/header' %>
-<%= partial 'layouts/nav' %>
-<div class="row">
-  <div class="small-12 columns">
-    <%= yield %>
+<div class="off-canvas-wrap">
+  <div class="inner-wrap">
+    <%= partial 'layouts/off_canvas_nav' %>
+    <%= partial 'layouts/header' %>
+    <%= partial 'layouts/nav' %>
+    <div class="row">
+      <div class="small-12 columns">
+        <%= yield %>
+      </div>
+    </div>
+
+    <%= partial 'layouts/footer' %>
+    <%= javascript_include_tag "all" %>
   </div>
 </div>
-<%= partial 'layouts/footer' %>
-<%= javascript_include_tag "all" %>
 </body>
 </html>
