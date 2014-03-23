@@ -9,10 +9,14 @@
   <%= javascript_include_tag "modernizr" %>
 </head>
 <body class="<%= page_classes %>">
-  <%= partial 'layouts/header' %>
-  <%= partial 'layouts/nav' %>
-  <%= yield %>
-  <%= partial 'layouts/footer' %>
-  <%= javascript_include_tag "all" %>
+<%= partial 'layouts/header' %>
+<%= partial 'layouts/nav' %>
+<div class="row">
+  <div class="small-12 columns">
+    <%= yield %>
+  </div>
+</div>
+<%= partial 'layouts/footer' %>
+<%= javascript_include_tag "all" %>
 </body>
 </html>

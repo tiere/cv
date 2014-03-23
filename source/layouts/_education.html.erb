@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="medium-3 small-12 columns">
+    <a name="education"></a>
+
+    <h3 data-magellan-destination="education">Education</h3>
+  </div>
+
+  <div class="medium-9 small-12 columns">
+    <div class="medium-3 small-12 columns">
+      <span class="label">August 2011 - Present</span>
+    </div>
+
+    <div class="medium-9 small-12 columns">
+      <h4 class="subheader">Business Information Technology</h4>
+      <h5 class="subheader">Haaga-Helia University of Applied Sciences</h5>
+
+      <ul>
+        <% data.haagahelia.knowledges.each do |k| %>
+            <li><%= k %></li>
+        <% end %>
+      </ul>
+
+    </div>
+  </div>
+</div>

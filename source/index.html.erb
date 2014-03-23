@@ -1,79 +1,17 @@
-<div class="row">
-  <div class="medium-3 small-12 columns">
-    <a name="education"></a>
-    <h3 data-magellan-destination="education">Education</h3>
-  </div>
+<div id="education" class="anchor"></div>
+<%= partial 'layouts/education' %>
 
-  <div class="medium-9 small-12 columns">
-    <div class="medium-3 small-12 columns">
-      <span class="label">August 2011 - Present</span>
-    </div>
+<div id="work" class="anchor"></div>
+<hr>
 
-    <div class="medium-9 small-12 columns">
-      <h4 class="subheader">Business Information Technology</h4>
-      <h5 class="subheader">Haaga-Helia University of Applied Sciences</h5>
+<%= partial 'layouts/work_experience' %>
 
-      <ul>
-        <% data.haagahelia.knowledges.each do |k| %>
-        <li><%= k %></li>
-        <% end %>
-      </ul>
+<div id="programming-languages" class="anchor"></div>
+<hr>
 
-    </div>
-  </div>
-</div>
+<%= partial 'layouts/technologies' %>
 
-<div class="row">
-  <div class="small-12 columns">
-    <hr>
-  </div>
-</div>
+<div id="language" class="anchor"></div>
+<hr>
 
-<div class="row">
-  <div class="medium-3 small-12 columns">
-    <a name="work"></a>
-    <h3 data-magellan-destination="work">Work Experience</h3>
-  </div>
-
-  <div class="medium-9 small-12 columns">
-    <% data.companies.companies.each do |company| %>
-      <%= partial 'layouts/workplace', locals: { time: data.send(company).time, title: data.send(company).title, company: data.send(company).company, duties: data.send(company).duties } %>
-    <% end %>
-  </div>
-</div>
-
-<div class="row">
-  <div class="small-12 columns">
-    <hr>
-  </div>
-</div>
-
-<div class="row">
-  <div class="medium-3 small-12 columns">
-    <a name="programming-languages"></a>
-    <h3 data-magellan-destination="programming-languages">Technology knowledge</h3>
-  </div>
-
-  <div class="medium-9 small-12 columns">
-    <% data.technologies.each do |t| %>
-      <%= partial 'layouts/technology', locals: { t: t } %>
-    <% end %>
-  </div>
-</div>
-
-<div class="row">
-  <div class="small-12 columns">
-    <hr>
-  </div>
-</div>
-
-<div class="row">
-  <div class="medium-3 small-12 columns">
-    <a name="language"></a>
-    <h3 data-magellan-destination="language">Language skills</h3>
-  </div>
-
-  <div class="medium-9 small-12 columns">
-    <%= partial 'layouts/language' %>
-  </div>
-</div>
+<%= partial 'layouts/languages' %>

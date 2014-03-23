@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="medium-3 small-12 columns">
+    <a name="programming-languages"></a>
+
+    <h3 data-magellan-destination="programming-languages">Technology knowledge</h3>
+  </div>
+
+  <div class="medium-9 small-12 columns">
+    <% data.technologies.each do |t| %>
+        <%= partial 'layouts/technology', locals: {t: t} %>
+    <% end %>
+  </div>
+</div>
