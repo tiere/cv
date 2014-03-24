@@ -1,35 +1,56 @@
-- ruby:
-  name: Ruby (on Rails)
-  skill: 80
+languages:
+  name: Programming Languages
+  nodes:
+    - ruby:
+      name: Ruby
+      skill: 80
 
-- java:
-  name: Java
-  skill: 50
+    - csharp:
+      name: C#
+      skill: 60
 
-- csharp:
-  name: C#
-  skill: 60
+    - javascript:
+      name: Javascript
+      skill: 60
 
-- javascript:
-  name: Javascript
-  skill: 60
+    - coffeescript:
+      name: CoffeeScript
+      skill: 60
 
-- coffeescript:
-  name: CoffeeScript
-  skill: 60
+    - python:
+      name: Python
+      skill: 60
 
-- php:
-  name: PHP
-  skill: 20
+    - java:
+      name: Java
+      skill: 50
 
-- python:
-  name: Python
-  skill: 50
+    - php:
+      name: PHP
+      skill: 20
 
-- django:
-  name: Django
-  skill: 50
+frameworks:
+  name: Frameworks
+  nodes:
+    - rails:
+      name: Ruby on Rails
+      skill: 80
 
-- linux:
-  name: Linux
-  skill: 70
+    - django:
+      name: Django
+      skill: 70
+
+    - aspnet:
+      name: ASP.NET MVC
+      skill: 60
+
+environments:
+  name: Environments
+  nodes:
+    - linux:
+      name: Linux
+      skill: 70
+
+    - windows:
+      name: Windows
+      skill: 70
