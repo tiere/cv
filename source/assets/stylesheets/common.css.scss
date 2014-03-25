@@ -19,3 +19,7 @@ h3 {
 .progress {
   margin-top: rem-calc(5);
 }
+
+.tech-cat-separator:last-of-type {
+  display: none;
+}

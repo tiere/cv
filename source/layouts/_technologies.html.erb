@@ -1,13 +1,11 @@
 <div class="row">
   <div class="medium-3 small-12 columns">
-    <a name="technologies"></a>
 
-    <h3 data-magellan-destination="technologies">Technology knowledge</h3>
+    <h3>Technology knowledge</h3>
   </div>
 
   <div class="medium-9 small-12 columns">
-    <div class="medium-3 small-12 columns"></div>
-    <div class="medium-9 small-12 columns">
+    <div class="medium-9 medium-offset-3 small-12 columns">
       <% data.technologies.each do |tech_cat| %>
           <%= partial 'layouts/technology_category', locals: {tech_cat: tech_cat} %>
       <% end %>

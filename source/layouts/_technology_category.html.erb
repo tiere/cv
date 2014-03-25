@@ -1,11 +1,15 @@
 <div class="row">
   <div class="row">
-    <h3 class="margin-bottom"><%= tech_cat[1].name %></h3>
+    <div class="small-12 columns">
+      <h3 class="margin-bottom"><%= tech_cat[1].name %></h3>
+    </div>
   </div>
   <div class="row">
-    <% tech_cat[1].nodes.each do |tech| %>
-        <%= partial 'layouts/technology', locals: {tech: tech} %>
-    <% end %>
+    <div class="small-12 columns">
+      <% tech_cat[1].nodes.each do |tech| %>
+          <%= partial 'layouts/technology', locals: {tech: tech} %>
+      <% end %>
+    </div>
   </div>
 </div>
-<hr/>
+<hr class="tech-cat-separator">
