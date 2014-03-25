@@ -22,6 +22,10 @@ header {
   .connect {
     margin-top: rem-calc(22);
 
+    a {
+      color: lightslategray;
+    }
+
     h4, ul {
       color: #BFBFBF;
       font-family: 'Roboto', sans-serif;
