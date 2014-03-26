@@ -24,6 +24,10 @@ header {
 
     a {
       color: lightslategray;
+
+      &:hover {
+        color: #D5DED9;
+      }
     }
 
     h4, ul {
