@@ -4,26 +4,21 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <!-- Use title if it's in the page YAML frontmatter -->
   <title><%= data.page.title || "Curriculum Vitae" %></title>
   <%= stylesheet_link_tag "app" %>
   <%= javascript_include_tag "modernizr" %>
 </head>
 
 <body class="<%= page_classes %>">
-<div class="off-canvas-wrap">
-  <div class="inner-wrap">
-    <%= partial 'layouts/off_canvas_nav' %>
-    <%= partial 'layouts/header' %>
-    <div class="row">
-      <div class="small-12 columns">
-        <%= yield %>
-      </div>
-    </div>
-
-    <%= partial 'layouts/footer' %>
-    <%= javascript_include_tag "all" %>
+<%= partial 'layouts/software' %>
+<%= partial 'layouts/header' %>
+<div class="row">
+  <div class="small-12 columns">
+    <%= yield %>
   </div>
 </div>
+
+<%= partial 'layouts/footer' %>
+<%= javascript_include_tag "all" %>
 </body>
 </html>

@@ -1,0 +1,40 @@
+footer {
+  background: #343838;
+  padding-top: rem-calc(40);
+  padding-bottom: rem-calc(40);
+  margin-top: rem-calc(40);
+  box-shadow: 0px 1px 10px $primary-color;
+  border-top: thin solid #222222;
+
+  * {
+    color: #BFBFBF;
+  }
+
+  a {
+    color: lightslategray;
+
+    &:hover {
+      color: #D5DED9;
+    }
+  }
+}
+
+#software {
+  li {
+    a {
+      display: inline;
+      padding: 0;
+      color: #343838;
+      
+      &:hover {
+        color: #222222;
+      }
+    }
+
+    &:hover {
+      background: #ffffff;
+    }
+
+    cursor: default;
+  }
+}
