@@ -60,7 +60,11 @@ header {
 
   @media #{$medium-only} {
     h1 {
-      font-size: rem-calc(42);
+      font-size: rem-calc(40);
+    }
+
+    h2 {
+      font-size: rem-calc(30);
     }
   }
 }
