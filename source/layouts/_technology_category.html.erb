@@ -1,15 +1,16 @@
 <div class="row">
   <div class="row">
     <div class="small-12 columns">
-      <h4 class="margin-bottom"><%= tech_cat[1].name %></h4>
+      <h4 class="margin-bottom"><%= tech_cat.name %></h4>
     </div>
   </div>
   <div class="row">
     <div class="small-12 columns">
-      <% tech_cat[1].nodes.each do |tech| %>
+      <% tech_cat.nodes.each do |tech| %>
           <%= partial 'layouts/technology', locals: {tech: tech} %>
       <% end %>
     </div>
   </div>
 </div>
+
 <hr class="tech-cat-separator">

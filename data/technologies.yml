@@ -1,4 +1,4 @@
-languages:
+-
   name: Programming Languages
   nodes:
     - ruby:
@@ -29,7 +29,7 @@ languages:
       name: PHP
       skill: 20
 
-frameworks:
+-
   name: Frameworks
   nodes:
     - rails:
@@ -44,7 +44,7 @@ frameworks:
       name: ASP.NET MVC
       skill: 60
 
-environments:
+-
   name: Environments
   nodes:
     - linux:

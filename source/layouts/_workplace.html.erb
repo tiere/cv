@@ -1,15 +1,15 @@
 <div class="row">
   <div class="large-3 medium-4 small-12 columns">
-    <span class="label"><%= time %></span>
+    <span class="label"><%= company.time %></span>
   </div>
 
   <div class="large-9 medium-8 small-12 columns">
-    <h4 class="subheader"><%= title %></h4>
-    <h5 class="subheader"><%= company %></h5>
+    <h4 class="subheader"><%= company.title %></h4>
+    <h5 class="subheader"><%= company.name %></h5>
 
     <ul class="square">
-    <% duties.each do |d| %>
-      <li><%= d %></li>
+      <% company.duties.each do |d| %>
+          <li><%= d %></li>
       <% end %>
     </ul>
   </div>

@@ -3,8 +3,8 @@
     <h3 class="no-margin-top">Work Experience</h3>
   </div>
   <div class="medium-9 small-12 columns">
-    <% data.companies.companies.each do |company| %>
-        <%= partial 'layouts/workplace', locals: {time: data.send(company).time, title: data.send(company).title, company: data.send(company).company, duties: data.send(company).duties} %>
+    <% data.companies.each do |company| %>
+        <%= partial 'layouts/workplace', locals: {company: company} %>
     <% end %>
   </div>
 </div>
