@@ -17,6 +17,12 @@ footer {
       color: #D5DED9;
     }
   }
+
+  @media #{$small-only} {
+    * {
+      text-align: center;
+    }
+  }
 }
 
 #software {
@@ -25,7 +31,7 @@ footer {
       display: inline;
       padding: 0;
       color: #343838;
-      
+
       &:hover {
         color: #222222;
       }

@@ -21,6 +21,8 @@ header {
 
   .connect {
     margin-top: rem-calc(22);
+    padding-left: 0;
+    padding-right: 0;
 
     a {
       color: lightslategray;
@@ -41,14 +43,24 @@ header {
   }
 
   @media #{$small-only} {
+    h1 {
+      font-size: rem-calc(32);
+    }
+
     .th {
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
 
-    .name, .connect {
+    .name, {
       text-align: center;
+    }
+  }
+
+  @media #{$medium-only} {
+    h1 {
+      font-size: rem-calc(42);
     }
   }
 }
