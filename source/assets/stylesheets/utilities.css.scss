@@ -10,10 +10,22 @@
   padding-left: 0;
 }
 
+.no-padding-right {
+  padding-right: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
 .margin-bottom {
   margin-bottom: rem-calc(20);
 }
 
 .padding-top {
   padding-top: rem-calc(40);
+}
+
+.padding-left {
+  padding-left: rem-calc(6);
 }

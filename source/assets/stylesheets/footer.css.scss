@@ -13,7 +13,7 @@ footer {
   a {
     color: lightslategray;
 
-    &:hover {
+    &:hover, &:focus {
       color: #D5DED9;
     }
   }

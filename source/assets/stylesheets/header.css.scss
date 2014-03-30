@@ -10,8 +10,6 @@ header {
   margin-bottom: rem-calc(40);
 
   .name {
-    margin-top: rem-calc(18);
-
     h1, h2 {
       font-family: 'Bevan', cursive;
       color: #BFBFBF;
@@ -19,52 +17,49 @@ header {
     }
   }
 
-  .connect {
-    margin-top: rem-calc(22);
-    padding-left: 0;
-    padding-right: 0;
+  a {
+    color: lightslategray;
 
-    a {
-      color: lightslategray;
-
-      &:hover {
-        color: #D5DED9;
-      }
-    }
-
-    h4, ul {
-      color: #BFBFBF;
-      font-family: 'Roboto', sans-serif;
+    &:hover, &:focus {
+      color: #D5DED9;
     }
   }
 
-  .th {
-    margin-top: rem-calc(28);
+  ul {
+    color: #BFBFBF;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
   }
 
   @media #{$small-only} {
-    h1 {
-      font-size: rem-calc(32);
-    }
-
     .th {
       display: block;
       margin-left: auto;
       margin-right: auto;
+      margin-bottom: rem-calc(40);
     }
 
     .name, {
       text-align: center;
     }
-  }
 
-  @media #{$medium-only} {
-    h1 {
-      font-size: rem-calc(40);
-    }
-
-    h2 {
-      font-size: rem-calc(30);
+    #contact {
+      text-align: center;
     }
   }
+}
+
+.contact-button {
+  font-size: rem-calc(30);
+  line-height: rem-calc(10);
+}
+
+.contact-link {
+  display: inline-block;
+}
+
+.contact-text {
+  font-size: rem-calc(18);
+  line-height: rem-calc(10);
+  font-family: 'Oswald', sans-serif;
 }

@@ -1,0 +1,20 @@
+-
+  name: Email
+  link: http://www.google.com/recaptcha/mailhide/d?k=0152QNv8C_lyW5H9NL4dyKGQ==&amp;c=UgHBIOxlFRQ7pPF6h-SoEZfQZS3MDi5iGJOnT2_ZafY=
+  icon: fi-mail
+  attributes: onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\0750152QNv8C_lyW5H9NL4dyKGQ\75\75\46c\75UgHBIOxlFRQ7pPF6h-SoEZfQZS3MDi5iGJOnT2_ZafY\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address"
+
+-
+  name: LinkedIn
+  link: http://fi.linkedin.com/pub/tommi-j%C3%A4rvinen/92/831/973/
+  icon: fi-social-linkedin
+
+-
+  name: GitHub
+  link: https://github.com/tiere
+  icon: fi-social-github
+
+-
+  name: Blog
+  link: http://blog.tommijarvinen.com
+  icon: fi-web
