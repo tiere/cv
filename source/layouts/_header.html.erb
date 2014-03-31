@@ -4,7 +4,7 @@
       <%= image_tag 'http://www.gravatar.com/avatar/e7b8a56d3d7c8e239842fa40aa781eec?s=100', alt: 'Gravatar', class: 'th' %>
     </div>
 
-    <div class="medium-8 small-12 columns name">
+    <div class="medium-7 small-12 large-8 columns name">
       <div class="row">
         <div class="small-10 medium-10 small-centered medium-uncentered columns">
           <h1 id="name">Tommi Järvinen</h1>
@@ -16,12 +16,14 @@
         </div>
       </div>
     </div>
-    <div id="contact" class="medium-2 columns">
-      <ul class="no-bullet">
-        <% data.socials.each do |social| %>
-            <%= partial 'layouts/social_link', locals: {social: social} %>
-        <% end %>
-      </ul>
+    <div id="contact" class="small-12 medium-3 large-2 columns">
+      <div class="small-3 small-centered medium-12 columns no-padding">
+        <ul class="no-bullet">
+          <% data.socials.each do |social| %>
+              <%= partial 'layouts/social_link', locals: {social: social} %>
+          <% end %>
+        </ul>
+      </div>
     </div>
   </div>
 </header>
