@@ -1,0 +1,14 @@
+-
+  name: Location
+  value: Helsinki, Finland
+  icon: fi-marker
+
+-
+  name: Nationality
+  value: Finnish
+  icon: fi-flag
+
+-
+  name: Year of birth
+  value: 1990
+  icon: fi-calendar
