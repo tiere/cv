@@ -15,7 +15,8 @@ $('#gravatar').flexVerticalCenter()
 $('#contact').flexVerticalCenter()
 $('.name').flexVerticalCenter()
 
-flex_off_for_small()
+$(window).load ->
+  flex_off_for_small()
 
 $(window).on 'resize'
 , flex_off_for_small
