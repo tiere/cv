@@ -1,56 +1,67 @@
 -
   name: Programming Languages
   nodes:
-    - ruby:
+    -
       name: Ruby
       skill: 80
 
-    - csharp:
+    -
       name: C#
       skill: 60
 
-    - javascript:
+    -
       name: Javascript
       skill: 60
 
-    - coffeescript:
+    -
       name: CoffeeScript
       skill: 60
 
-    - python:
+    -
       name: Python
       skill: 60
 
-    - java:
+    -
       name: Java
       skill: 50
 
-    - php:
+    -
       name: PHP
       skill: 20
 
 -
+  name: Web
+  nodes:
+    -
+      name: HTML
+      skill: 80
+
+    -
+      name: CSS & Sass
+      skill: 70
+
+-
   name: Frameworks
   nodes:
-    - rails:
+    -
       name: Ruby on Rails
       skill: 80
 
-    - django:
+    -
       name: Django
       skill: 70
 
-    - aspnet:
+    -
       name: ASP.NET MVC
       skill: 60
 
 -
   name: Environments
   nodes:
-    - linux:
+    -
       name: Linux
       skill: 70
 
-    - windows:
+    -
       name: Windows
       skill: 70
