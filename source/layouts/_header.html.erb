@@ -6,24 +6,22 @@
 
     <div class="medium-7 small-12 large-8 columns name">
       <div class="row">
-        <div class="small-10 medium-10 small-centered medium-uncentered columns">
+        <div class="small-10 medium-10 large-8 small-centered medium-uncentered columns">
           <h1 id="name">Tommi Järvinen</h1>
         </div>
       </div>
       <div class="row">
-        <div class="small-8 medium-8 small-centered medium-uncentered columns">
+        <div class="small-8 medium-8 large-6 small-centered medium-uncentered columns">
           <h2 id="title">Web Developer</h2>
         </div>
       </div>
     </div>
     <div id="contact" class="small-12 medium-3 large-2 columns">
-      <div class="small-3 small-centered medium-12 columns no-padding">
-        <ul class="no-bullet">
+        <ul class="no-bullet social-list">
           <% data.socials.each do |social| %>
               <%= partial 'layouts/social_link', locals: {social: social} %>
           <% end %>
         </ul>
       </div>
-    </div>
   </div>
 </header>

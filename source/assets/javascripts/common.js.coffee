@@ -14,6 +14,9 @@ $('.contact-button').flexVerticalCenter()
 $('#gravatar').flexVerticalCenter()
 $('#contact').flexVerticalCenter()
 $('.name').flexVerticalCenter()
+$('.social-text').flexVerticalCenter()
+$('.social-icon').flexVerticalCenter()
+
 
 $(window).load ->
   flex_off_for_small()

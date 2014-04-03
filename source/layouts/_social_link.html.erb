@@ -1,8 +1,6 @@
 <li>
-  <a href="<%= social.link %>" target="_blank" <%= social.attributes %>>
-    <div class="row">
-      <div class="small-4 medium-3 columns text-right no-padding"><i class="<%= social.icon %> contact-button"></i></div>
-      <div class="small-8 medium-9 columns contact-text padding-left-10px"><%= social.name %></div>
-    </div>
+  <a href="<%= social.link %>" class="social-container" target="_blank" <%= social.attributes %>>
+    <span class="social-icon <%= social.icon %>"></span>
+    <span class="social-text"><%= social.name %></span>
   </a>
 </li>
