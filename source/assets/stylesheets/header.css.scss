@@ -41,23 +41,22 @@ header {
 
 .social-container {
   display: block;
-  height: rem-calc(32);
 }
 
 .social-icon {
-  line-height: rem-calc(30);
+  line-height: 0;
   font-size: rem-calc(30);
-  float: left;
-  display: block;
-  margin-right: rem-calc(5);
+  display: inline-block;
+  margin-right: rem-calc(4);
+  vertical-align: middle;
 }
 
 .social-text {
-  display: block;
-  float: left;
+  display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: rem-calc(18);
-  line-height: rem-calc(18);
+  line-height: 1;
+  vertical-align: middle;
 }
 
 .social-list {
