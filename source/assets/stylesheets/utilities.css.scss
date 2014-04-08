@@ -18,6 +18,12 @@
   padding: 0;
 }
 
+.no-padding-for-small {
+  @media #{$small-only} {
+    padding: 0;
+  }
+}
+
 .margin-bottom {
   margin-bottom: rem-calc(20);
 }
