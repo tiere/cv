@@ -11,11 +11,11 @@
 
     -
       name: Javascript
-      skill: 60
+      skill: 70
 
     -
       name: CoffeeScript
-      skill: 60
+      skill: 70
 
     -
       name: Python
@@ -23,11 +23,11 @@
 
     -
       name: Java
-      skill: 50
+      skill: 60
 
     -
       name: PHP
-      skill: 20
+      skill: 80
 
 -
   name: Web

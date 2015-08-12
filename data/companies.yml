@@ -1,4 +1,11 @@
 -
+  name: Devlab Oy
+  time: Jun. 2014 - Present
+  title: Software Developer
+  duties:
+    - Software development with PHP, Ruby and Ruby on Rails
+
+-
   name: SolArch Oy
   time: Jan. 2014 - Feb. 2014
   title: Software Developer
@@ -9,7 +16,7 @@
 
 -
   name: Suomen lähetysseura ry
-  time: June 2013 - Oct. 2013
+  time: Jun. 2013 - Oct. 2013
   title: IT Trainee
   duties:
     - IT Support
@@ -27,10 +34,3 @@
   title: Software Developer
   duties:
     - Software development with Ruby
-
--
-  name: Itella Posti Oy
-  time: June 2012 - Dec. 2013
-  title: Postal Worker
-  duties:
-    - Sorting of post in the Helsinki sorting office. I started as a summer employee in June 2012 and worked mostly as a temp after that

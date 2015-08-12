@@ -1,9 +1,11 @@
 -
   school: Haaga-Helia
-  time: Aug. 2011 - Present
+  time: Aug. 2011 - Jun. 2015
   program: Business Information Technology
   knowledges:
-    - Programming (C#, Ruby (on Rails), Python, Java, XML, Javascript, PHP)
+    - Programming (C#, Ruby (on Rails), Python, Java, XML, Javascript, Angular.js, PHP)
     - Web Technologies (XML, Ajax, HTML5, CSS)
     - Managing server environments (Windows Server 2008 and 2012, Ubuntu Server)
     - Managing workstations (Windows and Linux)
+    - Server configuration and web application deployment (Chef, Ubuntu Server)
+    - Thesis was about developing and deploying a web application using Ruby on Rails, Angular.js and Chef
