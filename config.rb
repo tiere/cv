@@ -16,12 +16,12 @@ end
 compass_config do |config|
   # Require any additional compass plugins here.
   config.add_import_path "bower_components/foundation/scss"
-  
+
   # Set this to the root of your project when deployed:
-  config.http_path = "/"
-  config.css_dir = "stylesheets"
-  config.sass_dir = "stylesheets"
-  config.images_dir = "images"
+  config.http_path       = "/"
+  config.css_dir         = "stylesheets"
+  config.sass_dir        = "stylesheets"
+  config.images_dir      = "images"
   config.javascripts_dir = "javascripts"
 
   # You can select your preferred output style here (can be overridden via the command line):
@@ -31,7 +31,7 @@ compass_config do |config|
   # relative_assets = true
 
   # To disable debugging comments that display the original location of your selectors. Uncomment:
-  config.line_comments = false
+  config.line_comments   = false
 
 
   # If you prefer the indented syntax, you might want to regenerate this
@@ -115,4 +115,8 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
 end
