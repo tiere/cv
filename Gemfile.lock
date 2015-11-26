@@ -24,7 +24,7 @@ GEM
     execjs (1.4.1)
       multi_json (~> 1.0)
     ffi (1.9.10)
-    haml (4.0.5)
+    haml (4.0.7)
       tilt
     hike (1.2.3)
     i18n (0.6.11)
