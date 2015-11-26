@@ -23,7 +23,7 @@ GEM
       sass (>= 3.2, < 3.5)
     execjs (1.4.1)
       multi_json (~> 1.0)
-    ffi (1.9.3)
+    ffi (1.9.10)
     haml (4.0.5)
       tilt
     hike (1.2.3)
