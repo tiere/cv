@@ -1,0 +1,8 @@
+header: About Me
+
+paragraphs:
+  - I'm a recent BBA graduate from Haaga-Helia University of Applied Sciences where I studied Business Information Technology focusing on web development. I have been working in the web development field for just under two years now and couldn't be happier with my decision to pursue the profession.
+
+  - The programming languages that I have been programming with are Ruby, PHP, Javascript, Coffeescript, Java, Python and C#. When doing web development, I have been using Ruby on Rails, Laravel, Play, Django, ASP.NET MVC and ASP.NET WebForms as frameworks. I'm also fluent with HTML and CSS & Sass. From databases I'm familiar with mySQL, Postgresql, Microsoft SQL Server, IBM DB2 and MongoDB. I like to do some developing on my free time and Ruby on Rails is my framework of choice then. All my projects can be seen on <a href="https://github.com/tiere" target="_blank">GitHub</a>.
+
+  - I can manage Linux and Windows (Mostly Linux) server environments and workstations and I'm beginning to be pretty fluent with the command line on Linux. I have experience of configuring a Linux VPS in the cloud with Chef IT automation platform. The configurations that I'm most familiar are Nginx or Apache as the web server, Puma or Phusion Passenger as the application server and PostgreSQL or MySQL as the database.
