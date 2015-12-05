@@ -1,13 +1,5 @@
 {
   "name": "cv",
-  "homepage": "https://github.com/tiere/cv",
-  "authors": [
-    "tiere <tommi.tiere@gmail.com>"
-  ],
-  "description": "",
-  "main": "",
-  "moduleType": [],
-  "license": "MIT",
   "private": true,
   "ignore": [
     "**/.*",
