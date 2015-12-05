@@ -24,3 +24,6 @@
 
 # RubyMine files
 /.idea
+
+# Bower
+/bower_components
