@@ -1,5 +1,7 @@
 ROOT_PATH = File.expand_path(File.dirname(__FILE__))
 
+sprockets.append_path File.join root, 'bower_components'
+
 compass_config do |config|
   config.output_style = :compact
   config.add_import_path "#{ROOT_PATH}/bower_components/foundation/scss"
