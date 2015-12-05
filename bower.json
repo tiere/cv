@@ -1,8 +1,24 @@
 {
-  "name": "foundation-compass-app",
-  "version": "0.0.1",
-  "private": "true",
+  "name": "cv",
+  "homepage": "https://github.com/tiere/cv",
+  "authors": [
+    "tiere <tommi.tiere@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "fastclick": "~0.6.11",
+    "foundation": "zurb/bower-foundation",
+    "FitText.js": "*"
   }
 }
