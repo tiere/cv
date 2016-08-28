@@ -6,8 +6,12 @@
       skill: 80
 
     -
-      name: C#
-      skill: 60
+      name: PHP
+      skill: 80
+
+    -
+      name: SQL
+      skill: 80
 
     -
       name: Javascript
@@ -18,6 +22,10 @@
       skill: 70
 
     -
+      name: C#
+      skill: 60
+
+    -
       name: Python
       skill: 60
 
@@ -25,15 +33,15 @@
       name: Java
       skill: 60
 
-    -
-      name: PHP
-      skill: 80
-
 -
   name: Web
   nodes:
     -
       name: HTML
+      skill: 90
+
+    -
+      name: jQuery
       skill: 80
 
     -
@@ -45,7 +53,7 @@
   nodes:
     -
       name: Ruby on Rails
-      skill: 80
+      skill: 90
 
     -
       name: Django
@@ -60,7 +68,7 @@
   nodes:
     -
       name: Linux
-      skill: 70
+      skill: 80
 
     -
       name: Windows
