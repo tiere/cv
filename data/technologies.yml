@@ -6,8 +6,8 @@
       skill: 80
 
     -
-      name: C#
-      skill: 60
+      name: PHP
+      skill: 80
 
     -
       name: Javascript
@@ -18,16 +18,16 @@
       skill: 70
 
     -
+      name: C#
+      skill: 60
+
+    -
       name: Python
       skill: 60
 
     -
       name: Java
       skill: 60
-
-    -
-      name: PHP
-      skill: 80
 
 -
   name: Web
