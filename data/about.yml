@@ -1,8 +1,10 @@
 header: About Me
 
 paragraphs:
-  - I'm a recent BBA graduate from Haaga-Helia University of Applied Sciences where I studied Business Information Technology focusing on web development. I have been working in the web development field for just under two years now and couldn't be happier with my decision to pursue the profession.
+  - I'm a web developer from Helsinki, Finland with a few years of professional experience. I graduated from Haaga-Helia University of Applied Sciences in 2015 where I studied business information technology, mostly focusing on web development.
 
-  - The programming languages that I have been programming with are Ruby, PHP, Javascript, Coffeescript, Java, Python and C#. When doing web development, I have been using Ruby on Rails, Laravel, Play, Django, ASP.NET MVC and ASP.NET WebForms as frameworks. I'm also fluent with HTML and CSS & Sass. From databases I'm familiar with mySQL, Postgresql, Microsoft SQL Server, IBM DB2 and MongoDB. I like to do some developing on my free time and Ruby on Rails is my framework of choice then. All my projects can be seen on <a href="https://github.com/tiere" target="_blank">GitHub</a>.
+  - I have most experience with Ruby on Rails, PHP and Javascript, altough I have been using Python, C# and Java in the back-end as well. I have been using Ruby on Rails, Laravel, Play, Django, ASP.NET MVC and ASP.NET WebForms as frameworks and I can usually grasp new languages and frameworks quite quickly, especially if they follow the OOP paradigm. I'm also proficient with web related tools and technologies such as AJAX, Sass, Less, jQuery, Bower, Node.js, Gulp and Grunt. When it comes to databases, I have experience with MySQL, PostgreSQL, Microsoft SQL Server, IBM DB2 and MongoDB.
 
-  - I can manage Linux and Windows (Mostly Linux) server environments and workstations and I'm beginning to be pretty fluent with the command line on Linux. I have experience of configuring a Linux VPS in the cloud with Chef IT automation platform. The configurations that I'm most familiar are Nginx or Apache as the web server, Puma or Phusion Passenger as the application server and PostgreSQL or MySQL as the database.
+  - I can manage Linux and Windows (Mostly Linux) server environments and workstations and I'm beginning to be pretty fluent with the command line on Linux. I have experience in configuring Linux VPSs in the cloud with Chef IT automation platform. The configurations that I'm most familiar are Nginx or Apache as the web server, Puma or Phusion Passenger as the application server and PostgreSQL or MySQL as the database.
+
+  - I'm really happy with my decision to pursue the web development profession and enjoy building applications using web technologies.
