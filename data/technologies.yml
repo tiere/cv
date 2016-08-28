@@ -34,7 +34,7 @@
   nodes:
     -
       name: HTML
-      skill: 80
+      skill: 90
 
     -
       name: CSS & Sass
@@ -45,7 +45,7 @@
   nodes:
     -
       name: Ruby on Rails
-      skill: 80
+      skill: 90
 
     -
       name: Django
@@ -60,7 +60,7 @@
   nodes:
     -
       name: Linux
-      skill: 70
+      skill: 80
 
     -
       name: Windows
