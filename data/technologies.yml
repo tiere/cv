@@ -10,6 +10,10 @@
       skill: 80
 
     -
+      name: SQL
+      skill: 80
+
+    -
       name: Javascript
       skill: 70
 
@@ -35,6 +39,10 @@
     -
       name: HTML
       skill: 90
+
+    -
+      name: jQuery
+      skill: 80
 
     -
       name: CSS & Sass
