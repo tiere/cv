@@ -3,16 +3,21 @@
   time: Jun. 2014 - Present
   title: Software Developer
   duties:
-    - Software development with PHP, Ruby and Ruby on Rails
+    - Software development with Ruby (on Rails) and PHP, both without a framework and with Laravel framework using Git as source control tool
+    - Front-end development using Javascript, jQuery, CSS & Sass
+    - Occasional bug fixes
+    - SOAP API consumption and JSON API consumption & development
+    - Server (Linux) configuration using Chef ( Apache, MySQL, database replication, SSH-tunnels)
+    - Application deployment to a Linux server using Git
 
 -
   name: SolArch Oy
   time: Jan. 2014 - Feb. 2014
   title: Software Developer
   duties:
-    - Web development using the Django web application framework for python
-    - Data graphing using javascript
-    - Connecting to external json APIs
+    - Web development using the Django web application framework for Python
+    - Data graphing using Javascript
+    - Connecting to external JSON APIs
 
 -
   name: Suomen lähetysseura ry
